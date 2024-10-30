@@ -23,7 +23,7 @@ jobs:
             EOF
       - name: Deploy code to databricks workspace
         run: |
-            databricks workspace import "Pipeline.py" "/Workspace/Users/arinsang@ais.co.th/Challenge_chinook-pipeline/Test/prod/Pipeline" --language python --overwrite
+            databricks workspace import "Pipeline.py" "/Workspace/Users/arinsang@ais.co.th/Challenge_chinook-pipeline/Test/Pipeline" --language python --overwrite
       - name: Run production job
         run: |
             databricks jobs run-now --job-id 114169813929057
