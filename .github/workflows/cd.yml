@@ -1,4 +1,4 @@
-name: CD for chinook pipeline
+name: CD for Challenge chinook pipeline
 on: 
   push:
     branches: [main]
