@@ -1,5 +1,5 @@
 name: CD for chinook pipeline
-on: 
+on:
   push:
     branches: [main]
 jobs:
