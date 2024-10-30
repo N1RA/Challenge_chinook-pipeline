@@ -1,4 +1,4 @@
-name: CI for chinook pipeline
+name: CI for Challenge chinook pipeline
 on: 
   push:
     branches: [dev]
